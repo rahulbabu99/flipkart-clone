@@ -1,0 +1,39 @@
+/*.banner>img{
+    height: 100%;
+    object-fit: contain;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.items{
+    align-items: center;
+    padding-left: 97px;
+}*/
+
+
+.banner > img {
+    height: 100%;
+    object-fit: contain;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.items {
+    align-items: center;
+    padding-left: 97px;
+}
+
+
+@media screen and (max-width: 767px) {
+    .banner > img {
+        
+        height: auto;
+        padding: 10px; 
+    }
+
+    .items {
+        
+        padding-left: 20px;
+    }
+}

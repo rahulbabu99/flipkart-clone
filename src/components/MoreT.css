@@ -1,0 +1,19 @@
+/*.moret__in{
+    display: flex;
+    align-items: center;
+}*/
+
+
+.moret__in {
+    display: flex;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 767px) {
+    .moret__in {
+        
+        flex-direction: column;
+        justify-content: center; 
+    }
+}

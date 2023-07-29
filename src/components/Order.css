@@ -1,0 +1,178 @@
+/*.order{
+    width: 33%;
+    min-height: 333px;
+    background-color: white;
+    margin: 10px auto;
+    height: max-content;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.top{
+    background-color: rgb(8, 123, 231);
+}
+.top>h2{
+    color: white;
+    padding-left: 146px;
+}
+.top>p{
+    color: white;
+    padding-left: 140px;
+}
+
+.icon{
+    padding-left: 200px;
+    padding-top: 30px;
+    
+
+}
+.icon>.MuiSvgIcon-root{
+    color: green;
+    padding: 5px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 70px;
+}
+.coin{
+    padding-left: 171px;
+    align-items: center;
+    display: flex;
+}
+.coin>.MuiSvgIcon-root{
+    color: yellow;
+}
+.coin>p{
+    color: rgb(8, 123, 231);
+    border-radius: 0px;
+    background-color: white;
+    border-radius: 4px;
+    font-weight: 700;
+}
+.gift{
+    padding-left: 140px;
+    align-items: center;
+    display: flex;
+    padding-top: 30px;
+}
+.gift>.MuiSvgIcon-root{
+    color: rgb(250, 195, 13);
+    background-color: wheat;
+    border-radius: 42px;
+}
+.gift>p{
+    font-weight: bold;
+}
+.bottom{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}*/
+
+
+.order {
+    width: 33%;
+    min-height: 333px;
+    background-color: white;
+    margin: 10px auto;
+    height: max-content;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.top {
+    background-color: rgb(8, 123, 231);
+}
+
+.top > h2,
+.top > p {
+    color: white;
+    padding-left: 146px;
+
+.icon {
+    padding-left: 200px;
+    padding-top: 30px;
+}
+
+
+.icon > .MuiSvgIcon-root {
+    color: green;
+    padding: 5px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 70px;
+}
+
+.coin {
+    padding-left: 171px;
+    align-items: center;
+    display: flex;
+}
+
+.coin > .MuiSvgIcon-root {
+    color: yellow;
+}
+
+.coin > p {
+    color: rgb(8, 123, 231);
+    border-radius: 4px;
+    background-color: white;
+    font-weight: 700;
+}
+
+.gift {
+    padding-left: 140px;
+    align-items: center;
+    display: flex;
+    padding-top: 30px;
+}
+
+
+.gift > .MuiSvgIcon-root {
+    color: rgb(250, 195, 13);
+    background-color: wheat;
+    border-radius: 42px;
+}
+
+
+.gift > p {
+    font-weight: bold;
+}
+
+
+.bottom {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media screen and (max-width: 767px) {
+    .order {
+        
+        width: 90%;
+        padding-left: 0;
+    }
+
+    .top > h2,
+    .top > p {
+        
+        padding-left: 20px;
+    }
+
+    .icon {
+        
+        padding-left: 50px;
+    }
+
+    .coin {
+        
+        padding-left: 30px;
+    }
+
+    .gift {
+       
+        padding-left: 20px;
+    }
+}
+}

@@ -1,0 +1,212 @@
+/*.details{
+    padding: 5px;
+}
+.product{
+    float:left;
+    width: 509px;
+}
+.productInfo{
+    float: right;
+    height: 500px;
+    padding-right: 130px;
+}
+.singleImg{
+    width: 400px;
+    height: 410px;
+    object-fit: contain;
+    padding-left: 30px;
+}
+.singleImage{
+    position: relative;
+    padding-left: 86px;
+    width: 400px;
+    height: 400px;
+    transition: opacity .5s linear;
+    opacity: 1;
+    margin: auto;
+    z-index: 0;
+    object-fit: contain;
+    border: 2px solid #f0f0f0;
+}
+
+.btn{
+    padding-left: 78px;
+    padding-right: 124px;
+    display: flex;
+    justify-content: space-between;
+    width: 410px;
+
+}
+.cartBtn{
+    width: 200px;
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+
+    background-color: rgb(238, 171, 45);
+    cursor: pointer;
+}
+.buyBtn{
+    width: 200px;
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: rgb(255, 102, 0);
+    cursor: pointer;
+
+}
+.offers{
+    width:700px;
+    height: 10px;
+
+}
+.offer1{
+    display: flex;
+}
+.offer1>.MuiSvgIcon-root{
+    color: green;
+    padding: 10px;
+    padding-top: 22px;
+
+}
+.logo{
+    height: 20px;
+    width: 20px;
+}*/
+
+
+.details {
+    padding: 5px;
+}
+
+.product {
+    float: left;
+    width: 509px;
+}
+
+.productInfo {
+    float: right;
+    height: 500px;
+    padding-right: 130px;
+}
+
+
+.singleImg {
+    width: 400px;
+    height: 410px;
+    object-fit: contain;
+    padding-left: 30px;
+}
+
+
+.singleImage {
+    position: relative;
+    padding-left: 86px;
+    width: 400px;
+    height: 400px;
+    transition: opacity .5s linear;
+    opacity: 1;
+    margin: auto;
+    z-index: 0;
+    object-fit: contain;
+    border: 2px solid #f0f0f0;
+}
+
+
+.btn {
+    padding-left: 78px;
+    padding-right: 124px;
+    display: flex;
+    justify-content: space-between;
+    width: 410px;
+}
+
+.cartBtn, .buyBtn {
+    width: 200px;
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.cartBtn {
+    background-color: rgb(238, 171, 45);
+}
+
+.buyBtn {
+    background-color: rgb(255, 102, 0);
+}
+
+.offers {
+    width: 700px;
+    height: 10px;
+}
+
+
+.offer1 {
+    display: flex;
+}
+
+
+.offer1 > .MuiSvgIcon-root {
+    color: green;
+    padding: 10px;
+    padding-top: 22px;
+}
+
+
+.logo {
+    height: 20px;
+    width: 20px;
+}
+
+
+@media screen and (max-width: 767px) {
+    .product,
+    .productInfo,
+    .singleImg,
+    .singleImage,
+    .btn,
+    .offers,
+    .offer1 {
+        
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box; 
+    }
+
+    .productInfo {
+       
+        float: none;
+        padding-right: 0;
+    }
+
+    .singleImg,
+    .singleImage {
+        
+        width: auto;
+        height: auto;
+        
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .btn {
+        
+        padding-left: 0;
+        padding-right: 0;
+        
+        flex-direction: column;
+        align-items: center;
+    }
+}
+

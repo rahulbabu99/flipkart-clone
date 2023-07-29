@@ -1,0 +1,47 @@
+/*.logint__in{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  0px 7px;
+
+}
+.logint__in>.MuiSvgIcon-root{
+    margin-right: 10px;
+}
+.logint__in>img{
+    margin-right: 10px;
+}*/
+
+
+.logint__in {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 7px;
+}
+
+
+.logint__in > .MuiSvgIcon-root {
+    margin-right: 10px;
+}
+
+.logint__in > img {
+    margin-right: 10px;
+}
+
+
+@media screen and (max-width: 767px) {
+    .logint__in {
+        
+        padding: 0px 5px;
+       
+        flex-direction: column;
+    }
+
+    .logint__in > .MuiSvgIcon-root,
+    .logint__in > img {
+        
+        margin-right: 5px;
+        margin-bottom: 5px;
+    }
+}
